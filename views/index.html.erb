@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>To Do List:</title>
+  </head>
+
+<body>
+  <h1><u>To Do List:</u></h1>
+
+
+
+  <h2>My Tasks</h2>
+  <ul>
+    <% @things.each do |thing| %>
+      <li><%= thing.to_s %></li>
+    <% end %>
+  </ul>
+
+  <h2>My Goals </h2>
+  <ul>
+    <li>Dig deeper</li>
+    <li>Say yes to less</li>
+  </ul>
+
+<body/>
+</html>

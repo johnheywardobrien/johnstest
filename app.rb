@@ -7,3 +7,6 @@ get '/' do
   erb :'index.html'
 end
 
+get '/page1' do
+  erb :'page1.html'
+end
